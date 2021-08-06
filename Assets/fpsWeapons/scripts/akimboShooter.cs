@@ -94,12 +94,12 @@ public class akimboShooter : MonoBehaviour {
 	}
 	void Start()
 	{
-		// clipSize=currentammo;
-		//
-		// nextField = normalFOV ;
-		// weaponnextfield = weaponnormalFOV;
-		// myanimation.Stop();
-		// onstart();
+		clipSize=currentammo;
+		
+		nextField = normalFOV ;
+		weaponnextfield = weaponnormalFOV;
+		myanimation.Stop();
+		onstart();
 
 	}
 	void Update () 

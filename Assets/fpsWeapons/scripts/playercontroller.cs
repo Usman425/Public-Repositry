@@ -98,7 +98,7 @@ public class playercontroller : MonoBehaviour {
 	playerrotate rotatescript;
 	weaponselector inventory; 
 	private float nextcheck;
-	void Awake ()
+	public void Awake ()
 	{
 		reference = new GameObject().transform;
 		weaponanimator = weaponroot.GetComponent<Animator>();
@@ -109,7 +109,7 @@ public class playercontroller : MonoBehaviour {
 	}
 
 
-	void Start () 
+	public void Start () 
 	{
 		speed = normalspeed;
 		painflashtexture.CrossFadeAlpha(0f,0f,true);
@@ -118,7 +118,7 @@ public class playercontroller : MonoBehaviour {
 	}
 	
 
-	void Update () 
+	public void Update () 
 	{
 		
 
