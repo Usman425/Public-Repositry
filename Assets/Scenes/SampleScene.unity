@@ -6984,7 +6984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minimumX: -360
-  maximumX: 360
+  maximumX: 180
   aimSens: 2
   normalSens: 6
   climbing: 0

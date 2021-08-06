@@ -122,9 +122,6 @@ public class playercontroller : MonoBehaviour {
 	public void Update () 
 	{
 		
-
-
-
 		//Animator meshanimator = playermesh.GetComponent<Animator>();
 			
 		reference.eulerAngles = new Vector3(0, mycamera.eulerAngles.y, 0);
