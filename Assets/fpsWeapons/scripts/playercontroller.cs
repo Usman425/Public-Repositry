@@ -113,7 +113,7 @@ public class playercontroller : MonoBehaviour {
 	private void Start ()
 	{
 		speed = normalspeed;
-		painflashtexture.CrossFadeAlpha(0f,0f,true);
+		painflashtexture.CrossFadeAlpha(2f,0f,true);
 		cameranextposition = camerahighposition;
 
 	}
