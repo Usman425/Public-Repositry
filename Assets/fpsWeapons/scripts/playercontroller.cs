@@ -129,8 +129,8 @@ public class playercontroller : MonoBehaviour {
 		reference.eulerAngles = new Vector3(0, mycamera.eulerAngles.y, 0);
 		forward = reference.forward;
 		right = new Vector3(forward.z, 0, -forward.x);
-		float hor = ControlFreak2.CF2Input.GetAxisRaw("Horizontal");
-		float ver = ControlFreak2.CF2Input.GetAxisRaw("Vertical");
+		float hor = Input.GetAxisRaw("Horizontal");
+		float ver = Input.GetAxisRaw("Vertical");
 
 
 
