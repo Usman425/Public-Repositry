@@ -110,7 +110,7 @@ public class playercontroller : MonoBehaviour {
 	}
 
 
-	private void Start ()
+	public void Start ()
 	{
 		speed = normalspeed;
 		painflashtexture.CrossFadeAlpha(0f,0f,true);
